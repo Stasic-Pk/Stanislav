@@ -15,10 +15,16 @@ function Button({children}) {
 
 
 function App() {
+  const todos = [
+    {id: 1, completed: false, title: 'Купити ячьміний свіжий хліб'},
+    {id: 2, completed: false, title: 'Купити пшиничний свіжий хліб'},
+    {id: 3, completed: false, title: 'Купити гречаний свіжий хліб'}
+  ]
+
   return (
     <div className="wrapper">
       <h1>React totoriol</h1>
-      <TodoList></TodoList>
+      <TodoList todos={todos}></TodoList>
     </div>
   )
 }
