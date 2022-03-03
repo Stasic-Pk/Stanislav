@@ -1,4 +1,5 @@
 import './styles/main.css'
+import TodoList from './Todo/TodoList'
 
 function Main({children, ...props}) {
   return (
@@ -15,11 +16,9 @@ function Button({children}) {
 
 function App() {
   return (
-    <div>
-      <Button>stas</Button>
-      <Main className="block">
-        <Button>l</Button>
-      </Main>
+    <div className="wrapper">
+      <h1>React totoriol</h1>
+      <TodoList></TodoList>
     </div>
   )
 }
