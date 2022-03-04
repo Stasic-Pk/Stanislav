@@ -1,6 +1,7 @@
 import './styles/main.css'
 import TodoList from './Todo/TodoList'
 
+
 function Main({children, ...props}) {
   return (
     <div {...props}>{children}</div>
@@ -12,7 +13,6 @@ function Button({children}) {
     <div>{children}</div>
   )
 }
-
 
 function App() {
   const todos = [
@@ -28,5 +28,6 @@ function App() {
     </div>
   )
 }
+
 
 export default App;
