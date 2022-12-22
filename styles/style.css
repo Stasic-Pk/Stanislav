@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+}
+
+.box {
+  height: auto;
+  width: 100%;
+  display: flex;
+}
+
+.boxChildren {
+  height: auto;
+  width: 100%;
+}
+
+.imgWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.forestImage {
+  max-height: 100vh;
+  min-width: 100vh;
+  height: 100%;
+  width: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.text {
+  line-height: 8vh;
+  display: flex;
+  font-size: 8vh;
+  padding-top: 8vh;
+  padding-left: 15vh;
+}
+
+.line {
+  display: flex;
+  background-color: black;
+  margin-left: 15vh;
+  margin-top: 1vh;
+  padding: 1px;
+  width: 20vh;
+  height: 1vh;
+  border-radius: 10vh;
+}
+
+.icons {
+  display: flex;
+  padding-left: 15vh;
+}
+
+.icon {
+  margin-top: 55vh;
+  margin-right: 5vh;
+  
+}
