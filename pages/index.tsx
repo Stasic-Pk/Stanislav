@@ -10,8 +10,10 @@ export default function Home() {
   return (
     <div className="box">
       <div className="boxChildren">
-        <div className="text">Stasnislav <br/> Petryk</div>
-        <div className="line"></div>
+        <div>
+          <div className="text">Stasnislav <br/> Petryk</div>
+          <div className="line"></div>
+        </div>
 
         <div className="icons">
           <div className="icon"><GitHubIcon /></div>
@@ -19,6 +21,7 @@ export default function Home() {
           <div className="icon"><TwitterIcon /></div>
         </div>
       </div>
+
       <div className="imgWrapper">
         <Image
           priority={true}
@@ -28,6 +31,8 @@ export default function Home() {
           height={3500}
           className="forestImage"
         />
+
+        <div className="imgFilter"></div>
       </div>
     </div>
   )
