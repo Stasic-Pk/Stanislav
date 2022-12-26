@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  frontend_petryk:
+    image: ghcr.io/stasic-pk/stanislav-frontend:latest
+    container_name: "frontend_stanislav"
+    ports:
+      - "3006:3006"
+    command: "yarn start -- -p 3006"
+    working_dir: /app
+    restart: always
