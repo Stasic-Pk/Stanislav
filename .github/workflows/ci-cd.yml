@@ -17,8 +17,8 @@ jobs:
           echo $CR_PAT | docker login ghcr.io -u stanislav --password-stdin
       - name: Build image and push it to GitHub Packages
         run: |
-          docker build . --tag ghcr.io/stasic-pk/stasic-frontend:latest
-          docker push ghcr.io/stasic-pk/stasic-frontend:latest
+          docker build . --tag ghcr.io/stasic-pk/stanislav-frontend:latest
+          docker push ghcr.io/stasic-pk/stanislav-frontend:latest
   deploy:
     name: Deploy
     needs:
@@ -36,7 +36,6 @@ jobs:
           script: |
             cd /home/petryk/www/Stanislav
             git pull origin main
-            cd docker
             docker-compose stop
             docker pull ghcr.io/sasha-hk/stanislav-frontend:latest
             docker-compose up -d
