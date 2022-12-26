@@ -34,7 +34,7 @@ jobs:
           username: ${{ secrets.SSH_USERNAME }}
           key: ${{ secrets.SSH_KEY }}
           script: |
-            cd /home/petryk/www/stanislav
+            cd /home/petryk/www/Stanislav
             git pull origin main
             cd docker
             docker-compose stop
