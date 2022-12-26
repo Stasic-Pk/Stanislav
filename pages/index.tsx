@@ -15,9 +15,9 @@ export default function Home() {
             <div className="line"/>
           </div>
           <div className="icons">
-            <a href="https://github.com/Stasic-Pk" className="icon"><GitHubIcon/></a>
-            <a href="" className="icon"><TelegramIcon/></a>
-            <a href="" className="icon"><TwitterIcon/></a>
+            <a target="_blank" href="https://github.com/Stasic-Pk" className="icon"><GitHubIcon/></a>
+            <a target="_blank" href="https://t.me/StasicPk" className="icon"><TelegramIcon/></a>
+            <a target="_blank" href="https://twitter.com/petryt_stas" className="icon"><TwitterIcon/></a>
           </div>
         </div>
 
