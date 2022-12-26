@@ -37,5 +37,5 @@ jobs:
             cd /home/petryk/www/Stanislav
             git pull origin main
             docker-compose stop
-            docker pull ghcr.io/sasha-hk/stanislav-frontend:latest
+            docker pull ghcr.io/stasic-pk/stanislav-frontend:latest
             docker-compose up -d
