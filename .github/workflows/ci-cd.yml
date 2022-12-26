@@ -23,7 +23,6 @@ jobs:
     name: Deploy
     needs:
       - build-image
-      - lint-code
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the repo
